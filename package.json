@@ -1,0 +1,15 @@
+{
+  "name": "autenticator-testes-automatizados",
+  "version": "1.0.0",
+  "description": "Projeto Django básico criado para testes de QA.",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^14.1.0"
+  }
+}

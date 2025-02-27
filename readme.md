@@ -43,4 +43,26 @@ Agora o projeto estará rodando em `http://127.0.0.1:8000/` 🎉
 
 ---
 
-**Criado em 10 minutos para testes de QA** 🕒⚡
+## Como Rodar os Testes em Cypress
+
+### Pré-requisitos
+
+- Node.js - Você encontra em: https://nodejs.org/en/ 
+- Git: Você encontra em: https://git-scm.com/downloads
+
+### Navegue até o diretório do projeto
+```
+cd autenticator-testes-automatizados
+```
+### Instale as dependências:
+```
+npm init -y
+```
+```
+npm install Cypress
+```
+
+### Execute os testes:
+```
+npm test
+```
